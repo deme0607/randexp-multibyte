@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["hcs0035@gmail.com"]
   spec.summary       = %q{randexp extension for multibyte characters}
   spec.description   = %q{randexp extension for multibyte characters}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/deme0607/randexp-multibyte"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

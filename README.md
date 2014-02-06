@@ -1,6 +1,6 @@
 # Randexp::Multibyte
 
-TODO: Write a gem description
+randexp extension for multibyte characters
 
 ## Installation
 
@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Japanese
+
+```ruby
+/[:japanese:]{10}/.gen #=> "ヅろズヌ枚ャぇゾ擬踊"
+/[:kanji:]{3}/.gen #=> "嵐娯某"
+/[:hiragana:]{7}/.gen #=> "どぱりぺぜちと"
+/[:katakana:]/.gen #=> "ア"
+```
 
 ## Contributing
 
