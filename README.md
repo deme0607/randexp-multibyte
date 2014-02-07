@@ -22,9 +22,16 @@ Or install it yourself as:
 
 ```ruby
 /[:japanese:]{10}/.gen #=> "ヅろズヌ枚ャぇゾ擬踊"
-/[:kanji:]{3}/.gen #=> "嵐娯某"
-/[:hiragana:]{7}/.gen #=> "どぱりぺぜちと"
-/[:katakana:]/.gen #=> "ア"
+/[:kanji:]{3}/.gen     #=> "嵐娯某"
+/[:hiragana:]{7}/.gen  #=> "どぱりぺぜちと"
+/[:katakana:]/.gen     #=> "ア"
+```
+
+### Korean
+
+```ruby
+/[:korean:]{10}/.gen #=> "컓툜퉯턗헯텈흐헅픖튥"
+/[:hangeul:]{2}/.gen #=> "휀켣"
 ```
 
 ## Contributing
