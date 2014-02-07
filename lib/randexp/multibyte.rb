@@ -2,7 +2,7 @@ require "randexp"
 
 dir = File.expand_path("multibyte", File.dirname(__FILE__))
 require dir + "/version"
-require dir + "/core_ext"
+require dir + "/randexp_ext"
 require dir + "/characterlists"
 
 class Randexp
