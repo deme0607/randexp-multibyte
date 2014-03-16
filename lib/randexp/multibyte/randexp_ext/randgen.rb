@@ -1,3 +1,5 @@
+# coding:utf-8
+
 class Randgen
   # Japanese
   def self.hiragana(options = {})
