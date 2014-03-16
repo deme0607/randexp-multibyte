@@ -21,6 +21,8 @@ Or install it yourself as:
 ### Japanese
 
 ```ruby
+require "randexp-multibyte"
+
 /[:japanese:]{10}/.gen #=> "ヅろズヌ枚ャぇゾ擬踊"
 /[:kanji:]{3}/.gen     #=> "嵐娯某"
 /[:hiragana:]{7}/.gen  #=> "どぱりぺぜちと"
@@ -30,6 +32,8 @@ Or install it yourself as:
 ### Korean
 
 ```ruby
+require "randexp-multibyte"
+
 /[:korean:]{10}/.gen #=> "컓툜퉯턗헯텈흐헅픖튥"
 /[:hangeul:]{2}/.gen #=> "휀켣"
 ```
